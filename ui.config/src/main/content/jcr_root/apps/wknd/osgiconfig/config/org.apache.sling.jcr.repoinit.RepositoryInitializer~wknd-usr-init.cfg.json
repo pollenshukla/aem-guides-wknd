@@ -1,0 +1,7 @@
+{
+  "scripts":[
+    "create service user wknd-schedular-service-user with path /home/users/system/wknd",
+    "set ACL for wknd-schedular-service-user\r\nallow jcr:read,rep:write on /content/wknd\r\nallow jcr:read on /conf/wknd\r\nallow jcr:read on /content/wknd\r\nend",
+    "create user wknd-admin-user with path /home/users/wknd with password {SHA-256}1234567890"
+  ]
+}
