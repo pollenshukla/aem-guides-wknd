@@ -1,0 +1,6 @@
+// Configuration created by Apache Sling JCR Installer
+{
+  "scripts":[
+    "create path /content/wknd/in(cq:Page)/jcr:content(cq:PageContent)\r\nset properties on /content/wknd/in/jcr:content\r\nset sling:ResourceType{String} to wknd/components/page\r\nset cq:template{String} to /conf/wknd/settings/wcm/templates/landing-page-template\r\nset jcr:title{String} to India\r\nend"
+  ]
+}

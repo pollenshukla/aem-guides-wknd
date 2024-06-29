@@ -1,0 +1,6 @@
+{
+  "scripts":[
+    "create group wknd-group with path /home/groups/wknd",
+    "set ACL for wknd-group\r\nallow jcr:read,jcr:write on /conetnt/wknd\r\nallow jcr:read,jcr:write on /conf/wknd\r\nallow jcr:read,jcr:write on /apps/wknd\r\nallow jcr:read on /home\r\nallow jcr:read on /\r\nend"
+  ]
+}
